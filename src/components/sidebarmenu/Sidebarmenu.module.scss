@@ -1,0 +1,59 @@
+.sidebarheader {
+  width: 283px;
+  height: 40px;
+  background: #414144;
+  .sidebarheader_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .sidebarheader_menu {
+      color: #a1a1aa;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      .sidebarheader_span {
+        color: #a1a1aa;
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    .sidebarheader_icon {
+      width: 40px;
+    }
+  }
+}
+
+.sidebar_menu_container {
+  width: 283px;
+  height: 960px;
+  background: #414144;
+  .sidebar_menu {
+    display: flex;
+    .sidebar_cat_menu {
+      width: 240px;
+      display: flex;
+      align-items: center;
+      .sidebar_cat_icon {
+        height: 32px;
+        padding: 5px 12px 5px 20px;
+        gap: 14px;
+        flex-shrink: 0;
+      }
+      .sidebar_cat_title {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background: none;
+        border: none;
+      }
+    }
+  }
+}

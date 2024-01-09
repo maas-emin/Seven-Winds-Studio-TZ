@@ -1,0 +1,318 @@
+.main {
+  width: 1637px;
+  height: 1000px;
+  background: #202124;
+  &_container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background: #414144;
+    .main_text {
+      color: #fff;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-left: 21px;
+    }
+  }
+}
+
+.table {
+  width: 100%;
+  .li_span {
+    width: 500px;
+    border: 1px solid #333;
+  }
+  .td_materials {
+    border: 1px solid #333;
+  }
+
+  .ist_childPadding {
+    padding-left: 5px;
+  }
+}
+
+.tr {
+  height: 30px;
+}
+
+.list {
+  list-style: none;
+  &_raw {
+    div {
+      display: inline-block;
+    }
+  }
+  &_childPadding {
+    padding-left: 5px;
+  }
+}
+
+.main_ma {
+  border: 0;
+  width: 1637px;
+
+  .th_level {
+    color: #a1a1aa;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    width: 80px;
+  }
+  .th_job {
+    color: #a1a1aa;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    width: 357px;
+  }
+  .th_main {
+    color: #a1a1aa;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    width: 100px;
+    text-align: start;
+  }
+  .th_equipment {
+    color: #a1a1aa;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    width: 100px;
+    text-align: start;
+  }
+  .th_Invoices {
+    color: #a1a1aa;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    width: 100px;
+    text-align: start;
+  }
+  .span_name {
+    color: #fff;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    width: 100px;
+    text-align: start;
+    border-top: 1px solid #414144;
+  }
+  .level_td {
+    width: 110px;
+    border-top: 1px solid #414144;
+    .level_svg_rod {
+      .level_svg {
+        position: relative;
+        z-index: 3;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  .costs {
+    color: #fff;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    width: 100px;
+    height: 66px;
+    border-top: 1px solid #414144;
+    .td_input_costs {
+      background: #202124;
+      border: none;
+      color: #fff;
+      width: 100%;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      letter-spacing: 0.1px;
+      cursor: pointer;
+    }
+  }
+  .profit {
+    color: #fff;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    width: 100px;
+    border-top: 1px solid #414144;
+    .td_input_profit {
+      background: #202124;
+      border: none;
+      color: #fff;
+      width: 100%;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      letter-spacing: 0.1px;
+      cursor: pointer;
+    }
+  }
+  .lots {
+    color: #fff;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    width: 100px;
+    border-top: 1px solid #414144;
+    .td_input_lots {
+      background: #202124;
+      border: none;
+      color: #fff;
+      width: 100%;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      letter-spacing: 0.1px;
+      cursor: pointer;
+    }
+  }
+  .prof {
+    color: #fff;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    width: 100px;
+    border-top: 1px solid #414144;
+    .td_input_prof {
+      background: #202124;
+      border: none;
+      color: #fff;
+      width: 100%;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      letter-spacing: 0.1px;
+      cursor: pointer;
+    }
+  }
+}
+
+.icon_row {
+  display: flex;
+  position: relative;
+  z-index: 4;
+  align-items: center;
+  width: 50px;
+  height: 25px;
+  background-color: #202124;
+  cursor: pointer;
+  .svg_left_size {
+    position: absolute;
+    height: 69px;
+    width: 18px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    top: -56px;
+    left: -14px;
+    z-index: 2;
+  }
+}
+
+.mias {
+  display: none;
+}
+
+.icon_row:hover {
+  cursor: pointer;
+  border-radius: 6px;
+  background: #414144;
+  .mias {
+    display: block;
+  }
+}
+
+.td_input {
+  background: #202124;
+  border: none;
+  color: #fff;
+  width: 90%;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+}
+
+.td_input_add {
+  border-radius: 6px;
+  border: 1px solid #414144;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  width: 90%;
+  height: 36px;
+  flex-shrink: 0;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  margin-top: 28px;
+  border-radius: 4px;
+}
+
+input::-webkit-input-placeholder {
+  color: #999999;
+}

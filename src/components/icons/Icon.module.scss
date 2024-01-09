@@ -1,0 +1,18 @@
+.svg_icon {
+  position: relative;
+  z-index: 4;
+  .svg_icon_d {
+    position: absolute;
+    z-index: 4;
+  }
+  .svg_size {
+    position: absolute;
+    height: 69px;
+    width: 18px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    top: -56px;
+    left: -14px;
+    z-index: 2;
+  }
+}
